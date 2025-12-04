@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pěstování bylinek doma.">
+  <title>Bylinky | Domácí zahrada</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Pěstování bylinek doma</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tipy.html">Tipy pro rostliny</a></li>
+        <li><a href="bylinky.html" class="active">Bylinky</a></li>
+        <li><a href="navody.html">Návody</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Seznam bylinek</h2>
+      <input type="text" id="filtr" onkeyup="filtrujBylinky()" placeholder="Filtrovat bylinky...">
+      <ul>
+        <li class="bylinka">Bazalka – světlo: slunečné, zálivka: mírná</li>
+        <li class="bylinka">Máta – světlo: polostín, zálivka: pravidelná</li>
+        <li class="bylinka">Rozmarýn – světlo: slunečné, zálivka: málo</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Domácí zahrada</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

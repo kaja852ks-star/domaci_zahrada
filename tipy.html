@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Praktické tipy pro pěstování rostlin doma.">
+  <title>Tipy pro rostliny | Domácí zahrada</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Tipy pro úspěšné pěstování rostlin</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tipy.html" class="active">Tipy pro rostliny</a></li>
+        <li><a href="bylinky.html">Bylinky</a></li>
+        <li><a href="navody.html">Návody</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Nejčastější chyby</h2>
+      <ul>
+        <li onclick="zobrazTip('tip1')">
+          Přemokření rostlin
+          <div id="tip1" style="display:none;">
+            Přesvědčte se, že vaše květiny mají dostatek odtoku vody z květináče.
+          </div>
+        </li>
+        <li onclick="zobrazTip('tip2')">
+          Nedostatek světla
+          <div id="tip2" style="display:none;">
+            Umístěte rostliny blíže ke světlu nebo zvažte doplňkové LED osvětlení.
+          </div>
+        </li>
+        <li onclick="zobrazTip('tip3')">
+          Nevhodná zálivka
+          <div id="tip3" style="display:none;">
+            Zjistěte přesné nároky jednotlivých rostlin na zálivku.
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Domácí zahrada</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

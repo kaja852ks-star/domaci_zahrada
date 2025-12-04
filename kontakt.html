@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kontaktujte nás pro rady a tipy.">
+  <title>Kontakt | Domácí zahrada</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <h1>Kontaktujte nás</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tipy.html">Tipy pro rostliny</a></li>
+        <li><a href="bylinky.html">Bylinky</a></li>
+        <li><a href="navody.html">Návody</a></li>
+        <li><a href="kontakt.html" class="active">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <form onsubmit="return validujEmail()">
+        <label for="jmeno">Jméno:</label><br>
+        <input type="text" id="jmeno" name="jmeno" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="zprava">Zpráva:</label><br>
+        <textarea id="zprava" name="zprava" rows="5" required></textarea><br><br>
+
+        <button type="submit">Odeslat</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Domácí zahrada</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
